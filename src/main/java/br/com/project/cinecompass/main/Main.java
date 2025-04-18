@@ -17,7 +17,7 @@ public class Main {
     private ConvertData convert = new ConvertData();
 
     private final String ADDRESS = "https://www.omdbapi.com/?t=";
-    private final String APIKEY = "&apikey=74873d72";
+    private final String APIKEY = "";
 
     public void showMenu(){
         System.out.println("Enter the name of the series: ");
@@ -36,7 +36,6 @@ public class Main {
 		}
 		seasons.forEach(System.out::println);
         
-        //"https://www.omdbapi.com/?t=Breaking+Bad&"&apikey=74873d72"
        
          
     }
